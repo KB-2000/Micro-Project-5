@@ -1,0 +1,93 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5rem;
+}
+.main {
+    background-color: #192A32;
+    height: 90vh;
+    width: 25rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 43px;
+    position: relative;
+}
+.play_area {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.play_area .brand {
+    margin: 1rem;
+}
+.play_area .turn_btn img {
+    height: 11px;
+    width: 11px;
+}
+.play_area .turn_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background: #1F3540;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #A8BEC9;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.play_area .reset_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 5px;
+    background: #A7BDC8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 2rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    
+}
+.play_area .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #1F3540;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 1rem;
+    max-height: 0.3rem;
+    height: 0.3rem;
+    cursor: pointer;
+}
+.x_score, .ties, .y_score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width:5rem;
+    margin: 1rem;
+    padding: 0.1rem;
+    font-family: 'DM sans';
+    font-weight: bold;
+}
+.x_score {
+    background: #31C4BE;
+}
+.ties {
+    background: #A8BEC9;
+}
+.y_score {
+    background: #F2B237;
+}
+

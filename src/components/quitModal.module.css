@@ -1,0 +1,34 @@
+.quit_modal {
+    text-align: center;
+    position: absolute;
+    width: 25rem;
+    height: 10rem;
+    background-color: white;
+    background: #192A32;
+    top: 40%;
+    left: 0;
+}
+.quit_modal p {
+    color: #F2B237;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.quit_modal button {
+    border-radius: 10px;
+    margin: 1.5rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-weight: 800;
+}
+.quit_modal .play_again_btn {
+   background-color: #31C4BE;
+}
+.quit_modal .quit_btn {
+    background-color: #F2B237;
+}
+

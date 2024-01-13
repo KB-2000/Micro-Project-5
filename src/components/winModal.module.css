@@ -1,0 +1,45 @@
+.win_modal {
+    text-align: center;
+    position: absolute;
+    width: 25rem;
+    height: 11rem;
+    background: #192A32;
+    /* background-color: white; */
+    top: 40%;
+    left: 0;
+}
+.win_modal h1 {
+    color: #ACC2CD;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.win_modal p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2B237;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.win_modal button {
+    border-radius: 10px;
+    margin: 1.5rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-weight: 800;
+}
+.win_modal .next_round_btn {
+    background-color: #31C4BE;
+}
+.win_modal .win_quit_btn {
+    background-color: #F2B237;
+}
